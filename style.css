@@ -159,3 +159,101 @@ body{
     font-size: 14px;
     color: #DDDDDD ;
 }
+/* secure spot section */
+.secure-spot-heading{
+    display: grid;
+    grid-template-rows:2fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.secure-spot-heading h1 {
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+    /* margin-top: 20px;
+    margin-bottom: 10px; */
+}
+.secure-spot-heading p{
+    font-size: 16px;
+    text-align: center;
+    /* margin-top: 20px;
+    margin-bottom: 10px; */
+}
+.secure-spot-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.secure-spot-card-white{
+    background-color: #F8F9FB;
+    color: #575757;
+    border-radius: 5px;
+    border: 1px solid #F8F9FB;
+    padding: 30px;
+
+}
+.secure-spot-card-black{
+    background-color: #0D1B2A;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #0D1B2A;
+    padding: 30px;
+
+}
+.secure-spot-card-black h5, .secure-spot-card-white h5{
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.secure-spot-card-white h1{
+    color: #0D1B2A;
+    font-weight: bold;
+    font-size: 44px;
+}
+.secure-spot-card-black h1{
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 44px;
+}
+.secure-spot-card-black ul, .secure-spot-card-white ul{
+    padding: 15px;
+
+}
+.secure-spot-card-black ul li, .secure-spot-card-white ul li{
+    font-size: 14px;
+
+}
+.secure-spot-card-black ul li::marker, .secure-spot-card-white ul li::marker{
+    color: #60A5FA;
+
+}
+.secure-spot-card-black h5{
+    color: #60A5FA;
+
+}
+.standard-btn,.pro-btn, .team-btn{
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.standard-btn{
+    border: 1px solid #60A5FA;
+    color: #60A5FA;
+    background-color: #F8F9FB;
+}
+.pro-btn{
+    background-color: #2563EB;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+.team-btn{
+    border: 1px solid #0D1B2A;
+    background-color: #F8F9FB;
+}
+
+/* footer */
