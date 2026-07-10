@@ -10,7 +10,6 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     height: 80px;
-    background-color: rgb(243, 171, 171);
     height: 100px;
 }
 
@@ -201,7 +200,10 @@ body{
     border-radius: 5px;
     border: 1px solid #0D1B2A;
     padding: 30px;
-
+}
+.secure-spot-card-white,
+.secure-spot-card-black{
+    width: 250px;
 }
 .secure-spot-card-black h5, .secure-spot-card-white h5{
     font-weight: 600;
